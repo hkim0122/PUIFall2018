@@ -1,0 +1,285 @@
+/* Styling for Muddy Paws Adventure Gear store logo */
+h1 {
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 180%;
+    color: navy;
+}
+
+/* Following 2 are styling for Muddy Paws Adventure Gear store navigation */
+nav {
+    text-align: right;
+    position: absolute;
+    right: 180px;
+    top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 140%;
+    color: navy;
+}
+
+a {
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+/* Styling for page immediately following homepage */
+#dog-shopping-image {
+    position: absolute;
+    left: 250px;
+    bottom: 130px;
+}
+
+#cat-shopping-image {
+    position: absolute;
+    left: 750px;
+    bottom: 110px;
+}
+
+/* Styling for button on website - For reference, looked at
+https://www.w3schools.com/howto/howto_css_outline_buttons.asp */
+#shop-for-dog-button {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    width: 210px;
+    position: absolute;
+    border-radius: 10px;
+    left: 290px;
+    bottom: 50px;
+}
+
+#shop-for-cat-button {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    width: 210px;
+    border-radius: 10px;
+    position: absolute;
+    left: 770px;
+    bottom: 50px;
+}
+
+/* Styling for homepage */
+#start-shopping-button {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    width: 215px;
+    border-radius: 10px;
+    position: absolute;
+    right: 515px;
+    bottom: 50px;
+}
+
+#homepage-image {
+    position: absolute;
+    bottom: 120px;
+    left: 425px;
+}
+
+/* Styling for About Us Page */
+#about-us-content {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    padding-right: 300px;
+    display: block;
+}
+
+/* Styling for dog products browsing page */
+#first-dog-product-image {
+    position: absolute;
+    left: 150px;
+    bottom: 110px;
+    display: inline-block;
+}
+
+#second-dog-product-image {
+    position: absolute;
+    left: 550px;
+    bottom: 110px;
+    display: inline-block;
+}
+
+#third-dog-product-image {
+    position: absolute;
+    left: 925px;
+    bottom: 110px;
+    display: inline-block;
+}
+
+#shop-for-cat-products {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 150px;
+    top: 180px;
+}
+/* Styling for cat products browsing page */
+#first-cat-product-image {
+    position: absolute;
+    left: 200px;
+    bottom: 110px;
+    display: inline-block;
+}
+
+#second-cat-product-image {
+    position: absolute;
+    left: 550px;
+    bottom: 110px;
+    display: inline-block;
+}
+
+#third-cat-product-image {
+    position: absolute;
+    left: 925px;
+    bottom: 110px;
+    display: inline-block;
+}
+
+#shop-for-dog-products {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+/* Styling for projects details page */
+#back-to-dog-products {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    left: 75px;
+    top: 175px;
+}
+
+#select-small-button {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 125px;
+    bottom: 350px;
+}
+
+#select-orange-button {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 125px;
+    bottom: 275px;
+}
+
+#select-one-button {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 125px;
+    bottom: 200px;
+}
+
+#cart-add-button {
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    right: 125px;
+    bottom: 75px;
+}
+
+#product-detail-image {
+    position: absolute;
+    left: 325px;
+    bottom: 50px;
+    display: inline-block;
+}
+
+#product-detail-content {
+    position: absolute;
+    left: 125px;
+    bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    width: 200px;
+
+}
+
