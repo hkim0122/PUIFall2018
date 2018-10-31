@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!--Linking to CSS stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Javascript for interactivity-->
+    <script src="main.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Muddy Paws <br> Adventure Gear</h1>
+        <nav>
+            <a>About Us</a>
+            <a>Contact</a>
+            <a href="shoppingCart.html" id="cart-num-items">Items In Cart: </a>
+        </nav>
+    </header>
+
+    <!--Product detail page is for dog GPS collar product-->
+    <div class="website-buttons">
+        <div class="navigate-to-dog-products">
+            <!--&#60 is dec value for less than symbol (leftward facing caret)-->
+            <a href="dogProductBrowsingPage.html" id="back-to-dog-products"> &#60 Back to Dog Products</a>
+        </div>
+    </div>
+
+    <div id="product-detail-image">
+        <img id="image-change" src="dogProduct1.jpg" alt="Dog harness" style="width:40%">
+    </div>
+
+    <!--https://www.w3schools.com/jsref/event_onchange.asp-->
+    <!--Referred to the above for dropdown menu change event-->
+    <div class="website-buttons">
+        <div class="dropdown">
+            <select id="size-option" onchange="mySizeFunction()">
+                <option value="Small">Small
+                <option value="Medium">Medium
+                <option value="Large">Large
+            </select>
+        </div>
+    </div>
+
+    <div class="website-buttons">
+        <div class="dropdown">
+            <select id="color-option" onchange="changePhotoFunction()">
+                <option value="Orange">Orange
+                <option value="Green">Green
+                <option value="Pink">Pink
+            </select>
+        </div>
+    </div>
+
+    <div class="website-buttons">
+        <div class="amount-option">
+            <select id="item-quantity" onchange="changeQuantityFunction()">
+                <option value="1">1
+                <option value="2">2
+                <option value="3">3
+                <option value="4">4
+                <option value="5">5
+        </div>
+    </div>
+
+    <div class="website-buttons">
+        <input id="cart-add-button" type="button" value="Add Item" onclick="addToCart()"></input>
+    </div>
+
+    <div id="product-detail-content">
+        <p> This comfortable harness is one that your dog will love! <br> Made of a lightweight material, it won't irritate your furry best friend. <br> Plus, it's machine washable too. </p>
+    </div>
+
+</body>
+
+</html>
